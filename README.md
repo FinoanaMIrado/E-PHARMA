@@ -99,7 +99,7 @@ sur n'importe quel poste disposant d'un JDK 17 et d'un accès à la base.
 | Nom d'utilisateur | Mot de passe | Rôle |
 |---|---|---|
 | `admin` | `admin123` | ADMIN |
-| `fimiri` | `qwerty1234` | PHARMACIEN |
+| `f| Pimiri` | `qwerty1234` HARMACIEN |
 
 Les mots de passe sont stockés hachés (BCrypt) : la base ne contient jamais de mot
 de passe en clair.

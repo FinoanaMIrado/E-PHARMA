@@ -47,7 +47,7 @@ public class LoginFrame extends JFrame {
     private final JLabel messageErreur = new JLabel(" ");
 
     public LoginFrame() {
-        super("Gestion Pharmacie - Connexion");
+        super("Connexion");
 
         setDefaultCloseOperation(WindowConstants.DO_NOTHING_ON_CLOSE);
         addWindowListener(new WindowAdapter() {
@@ -93,12 +93,12 @@ public class LoginFrame extends JFrame {
         JLabel logo = new JLabel(IconLoader.getWhite("logo", 64));
         logo.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JLabel titre = new JLabel("GESTION PHARMACIE");
+        JLabel titre = new JLabel("E-PHARMA");
         titre.setFont(Theme.POLICE_TITRE);
         titre.setForeground(Theme.BLANC);
         titre.setAlignmentX(Component.CENTER_ALIGNMENT);
 
-        JLabel sousTitre = new JLabel("Stock, ventes et bilan");
+        JLabel sousTitre = new JLabel("Gèrer votre Pharmacie en toute simplicité");
         sousTitre.setFont(Theme.POLICE_NORMALE);
         sousTitre.setForeground(Theme.MENU_TEXTE);
         sousTitre.setAlignmentX(Component.CENTER_ALIGNMENT);

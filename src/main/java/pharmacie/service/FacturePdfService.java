@@ -39,7 +39,7 @@ public class FacturePdfService {
     private static final Color GRIS_LIGNE = new Color(226, 232, 236);
 
     /** Nom affiché en en-tête. Non spécifié par le cahier des charges : valeur par défaut. */
-    private static final String NOM_PHARMACIE = "PHARMACIE CENTRALE";
+    private static final String NOM_PHARMACIE = "PHARMACIE FIANARANTSOA";
 
     // Géométrie de la page (en points, origine en bas à gauche)
     private static final float MARGE = 50;
@@ -90,7 +90,7 @@ public class FacturePdfService {
     private float dessinerEntete(PDPageContentStream flux, Facture facture, float y) throws IOException {
         ecrire(flux, POLICE_GRASSE, 18, VERT_PRINCIPAL, MARGE, y, NOM_PHARMACIE);
         y -= 16;
-        ecrire(flux, POLICE, 9, GRIS_TEXTE, MARGE, y, "Gestion de pharmacie");
+        ecrire(flux, POLICE, 9, GRIS_TEXTE, MARGE, y, "E-PHARMA");
 
         y -= 34;
         ecrire(flux, POLICE_GRASSE, 14, Color.BLACK, MARGE, y, "FACTURE");

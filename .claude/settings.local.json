@@ -1,8 +1,0 @@
-{
-  "permissions": {
-    "allow": [
-      "Read(//tmp/**)",
-      "Bash(timeout 120 java -cp __TRACKED_VAR__:/tmp/smoke -Ddb.host=127.0.0.1 -Ddb.port=3399 -Ddb.user=pharma -Ddb.password=pharma123 pharmacie.ui.CaptureEcrans /tmp/captures2)"
-    ]
-  }
-}
