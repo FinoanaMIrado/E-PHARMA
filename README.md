@@ -1,5 +1,5 @@
 # Gestion de Pharmacie — Application Java Swing
-
+eee
 Application desktop de gestion d'une pharmacie : médicaments, entrées de stock,
 ventes multi-lignes, facture PDF et bilan avec histogramme.
 
